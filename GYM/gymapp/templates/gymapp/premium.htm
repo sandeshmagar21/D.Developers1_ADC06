@@ -1,0 +1,25 @@
+{% extends 'gymapp/base.htm' %}
+
+<!-- For CRUD Operations -->
+{% block content %}
+<div class="card-columns" >
+    {% for list in shelf %}
+    <div class="card" style="background-color:rgb(88, 88, 44); width: 25rem;">
+  <img class="card-img-top" src="{{ list.picture.url }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ list.workoutname }}</h5>
+    <p class="alert alert-success" role="alert">{{ list.workoutdesc }}</p>
+   <div class="card-footer bg-transparent border-dark">
+   <p class="card-title badge badge-light alert-success">{{list.email}}</p>
+   <center>
+       <a href="update/{{list.id}}" class="btn btn-dark" id = '{{list.id}}'>Update</a>
+       <a href="delete/{{list.id}}" class="btn btn-dark" id = '{{list.id}}'>Delete</a>
+       <a href="#" class="btn btn-dark  " id = '{{list.id}}'>Download</a>  
+    </center>
+    </div>
+  </div>
+</div>
+    {% endfor %}
+</div>
+{% endblock %}
+

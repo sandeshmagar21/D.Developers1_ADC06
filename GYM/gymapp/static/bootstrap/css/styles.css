@@ -1,0 +1,570 @@
+body{
+  
+   background-image:url("/static/image/chase-kinney-FMQBLyhD2HU-unsplash.jpg");
+   background-color: #000000;
+}
+
+/* this is for hmoe html page */
+.Home{
+    background-image: url("/static/image/bg_3.jpg");
+    padding: 8em 0;
+    color: #FFF;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width:95%;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.home-about{
+    background-image:url("/static/image/woman-doing-crossfit-2294400.jpg");
+    padding-bottom: 10em;
+    background-repeat: no-no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+.home-about-textbox {
+	background-color: #232323 ;
+	padding: 4em;
+	width: 100vw;
+	margin-left: -2.5%;
+	outline: 2px solid #2F85DB;
+	outline-offset: -2.5em;
+	color: #FFF;
+	position:relative;
+}
+
+.home-about-textbox h1 {
+	color: #00ff6c;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: .75em;
+	background: #232323;
+	padding: 0 .145em;
+}
+
+.home-about-textbox {
+	width: 55%;
+	margin-left: -7.5%;
+    text-align: left;
+    top:-5em;
+    left: -8em;
+    box-shadow: 0 0 3em 0 rgba(0,0,0,.25);
+    padding: 5em;
+    outline-offset: -2em;
+}
+div.sk{
+    position: relative;
+    top:-8em;
+    left: -3em;
+}
+
+.home-about-textbox h1 {
+	top: .75em;
+  left:3.25rem;
+  transform:translateX(0);
+}
+
+.title title-cta{
+    float:right;
+  }
+  
+
+#cta{
+    clear: both;
+    position: relative;
+    bottom: -1000px;
+  }
+
+  /* this is for contact html page */
+  .Five{
+    background-image:url("/static/image/sule-makaroglu-HzXDD6l7gW4-unsplash.jpg");
+    padding: 10em 0;
+    color: #FFF;
+    background-size: cover;
+    background-position: center;
+    }
+    .rajsir2{
+      position: relative;
+      right: -43em;
+    }
+
+    .rajsir{
+      position: relative;
+      top:5em;
+      right: -40em;
+    }
+
+    /* @media (min-width:30rem){
+      .Five{
+        height:110vh;
+        padding-top: 30vh;
+      }
+    } */
+
+    .container{
+      width:95%;
+      max-width: 70em;
+      margin: 0 auto;
+     /* position: absolute;
+      z-index: 2;*/
+    }
+
+
+  /* footer section  */
+  .footer-section {
+    overflow: hidden;
+  }
+  
+  .footer-form {
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 610px;
+    padding-left: 85px;
+    padding-top: 80px;
+  }
+  .footer-form .section-title h2 {
+    color: #ffffff;
+    margin-bottom: 28px;
+    font-weight: 600;
+  }
+  .footer-form .section-title p {
+    color: #ffffff;
+  }
+  .footer-form form input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  .footer-form form textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ebebeb;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    resize: none;
+  }
+  .footer-form form button {
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+    background: #f34e3a;
+    border: 1px solid #f34e3a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 52px 10px 39px;
+    position: relative;
+    cursor: pointer;
+  }
+  .footer-form form button i {
+    font-size: 10px;
+    position: absolute;
+    right: 35px;
+    top: 16px;
+  }
+  
+  .register {
+    background: #191919;
+    padding: 15px 0;
+  }
+  .register.normal-register .copyright span {
+    color: #f34e3a;
+  }
+  .register.normal-register .footer-widget ul li.active {
+    color: #f34e3a;
+  }
+  .register .copyright {
+    float: left;
+    font-size: 14px;
+    color: #6e6e6e;
+    line-height: 28px;
+    margin-right: 220px;
+  }
+  .register .footer-widget {
+    float: left;
+  }
+  .register .footer-widget ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-right: 34px;
+    position: relative;
+  }
+  .register .footer-widget ul li:after {
+    color: #6e6e6e;
+    content: "|";
+    position: absolute;
+    right: -21px;
+    top: -1px;
+  }
+  .register .footer-widget ul li:last-child {
+    margin-right: 0;
+  }
+  .register .footer-widget ul li:last-child:after {
+    display: none;
+  }
+  .register .footer-links {
+    float: right;
+  }
+  .register .footer-links a {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 25px;
+    color: #6e6e6e;
+  }
+.rajsir3{
+ 
+  right: -60em;
+}  
+footer {
+  background-color: #495c6c;
+  margin-top: -0.5em;
+  padding: 2em;
+  position: absolute; 
+  text-align:center;
+  width: 100%;
+  } 
+
+
+  .Six{
+    background-image:url("/static/image/chase-kinney-FMQBLyhD2HU-unsplash.jpg");
+    padding: 10em 0;
+    color: #FFF;
+    background-size: cover;
+    background-position: center;
+    }
+
+  .sk11{
+    background-image:url("/static/image/chase-kinney-FMQBLyhD2HU-unsplash.jpg");
+    padding: 10em 0;
+    color: #FFF;
+    background-size: cover;
+    background-position: center;
+    }
+    
+.lol{
+
+  position: relative;
+  top:5em;
+  right: -40em;
+
+}
+
+.about-page-trainer {
+  padding-bottom: 70px;
+}
+.about-page-trainer .section-title h2 {
+  color: #191919;
+  font-weight: 600;
+}
+.about-page-trainer .section-title h2:before {
+  background: #f34e3a;
+}
+.about-page-trainer .section-title p {
+  color: #6e6e6e;
+}
+.about-page-trainer .single-trainer-item {
+  text-align: center;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.about-page-trainer .single-trainer-item:hover {
+  -webkit-box-shadow: 1px 2px 30px 5px #d8d8d8;
+  box-shadow: 1px 2px 30px 5px #d8d8d8;
+}
+.about-page-trainer .single-trainer-item .trainer-pic img {
+  min-width: 100%;
+}
+.about-page-trainer .single-trainer-item .trainer-text {
+  padding: 25px 30px 25px;
+}
+.about-page-trainer .single-trainer-item .trainer-text h5 {
+  color: #191919;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.about-page-trainer .single-trainer-item .trainer-text span {
+  color: #6e6e6e;
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+  margin-bottom: 14px;
+}
+.about-page-trainer .single-trainer-item .trainer-text .trainer-social {
+  border-top: 1px solid #ebebeb;
+  padding-top: 15px;
+}
+.about-page-trainer .single-trainer-item .trainer-text .trainer-social a {
+  display: inline-block;
+  color: #6e6e6e;
+  font-size: 14px;
+  margin-right: 26px;
+}
+.about-page-trainer .single-trainer-item .trainer-text .trainer-social a:last-child {
+  margin-right: 0;
+}
+
+
+.trainer-schedule.class-timetable .section-title h2, .class-timetable.choseus-section .section-title h2, .class-timetable.about-page-trainer .section-title h2 {
+  color: #191919;
+  margin-bottom: 61px;
+}
+.trainer-schedule.class-timetable .section-title .nav-controls ul li, .class-timetable.choseus-section .section-title .nav-controls ul li, .class-timetable.about-page-trainer .section-title .nav-controls ul li {
+  color: #232530;
+  display: inline-block;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin-right: 54px;
+  cursor: pointer;
+}
+.trainer-schedule.class-timetable .section-title .nav-controls ul li.active, .class-timetable.choseus-section .section-title .nav-controls ul li.active, .class-timetable.about-page-trainer .section-title .nav-controls ul li.active {
+  color: #f34e3a;
+}
+.trainer-schedule.class-timetable .section-title .nav-controls ul li:last-child, .class-timetable.choseus-section .section-title .nav-controls ul li:last-child, .class-timetable.about-page-trainer .section-title .nav-controls ul li:last-child {
+  margin-right: 0;
+}
+.trainer-schedule .section-title, .choseus-section .section-title, .about-page-trainer .section-title {
+  text-align: center;
+}
+.trainer-schedule .section-title h2, .choseus-section .section-title h2, .about-page-trainer .section-title h2 {
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 46px;
+}
+.trainer-schedule .section-title h2:before, .choseus-section .section-title h2:before, .about-page-trainer .section-title h2:before {
+  width: 70px;
+  height: 3px;
+  right: 0;
+  left: 0;
+  top: 49px;
+  margin: 0 auto;
+}
+.trainer-schedule .section-title p, .choseus-section .section-title p, .about-page-trainer .section-title p {
+  color: #ffffff;
+}
+
+.schedule-table {
+  overflow-x: auto;
+}
+.schedule-table .ts-item {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.schedule-table.filtering .ts-item {
+  opacity: 0;
+}
+.schedule-table.filtering .ts-item.show {
+  opacity: 1;
+}
+.schedule-table table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+}
+.schedule-table table thead tr {
+  background: #ffffff;
+}
+.schedule-table table thead tr th {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+.schedule-table table tbody {
+  border-top: 1px solid #e5e5e5;
+}
+.schedule-table table tbody tr {
+  border-bottom: 1px solid #e5e5e5;
+  background: #F0F0F0;
+}
+.schedule-table table tbody tr:nth-child(even) {
+  background: #ffffff;
+}
+.schedule-table table tbody tr td {
+  border-right: 1px solid #e5e5e5;
+  padding: 20px 10px 16px;
+  width: 146px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+.schedule-table table tbody tr td.gym h6, .schedule-table table tbody tr td.crossfit h6, .schedule-table table tbody tr td.running h6 {
+  color: #f34e3a;
+}
+.schedule-table table tbody tr td.yoga h6 {
+  color: #247cc6;
+}
+.schedule-table table tbody tr td.body h6, .schedule-table table tbody tr td.box h6 {
+  color: #6dcff6;
+}
+.schedule-table table tbody tr td.cardio h6 {
+  color: #4cbcc3;
+}
+.schedule-table table tbody tr td.box.g h6 {
+  color: #00a651;
+}
+.schedule-table table tbody tr td h6 {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.schedule-table table tbody tr td span {
+  font-size: 14px;
+  display: block;
+  color: #191919;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+}
+.schedule-table table tbody tr td .trainer-name {
+  font-size: 14px;
+  color: #6e6e6e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.schedule-table table tbody tr .workout-time {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1176px;
+	}
+}
+
+
+.service-section {
+	padding: 122px 0 55px;
+}
+
+.service-section .icon-box-item {
+	margin-bottom: 50px;
+}
+
+.pricing-section {
+	padding: 121px 0 91px;
+}
+
+.pricing-section .section-title {
+	margin-bottom: 74px;
+}
+
+.pricing-box {
+	position: relative;
+	border: 2px solid #ffffff;
+	text-align: center;
+	padding: 62px 40px 31px;
+	height: 593px;
+	margin-bottom: 30px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pricing-box h2 {
+	font-size: 48px;
+	color: #fff;
+	margin-bottom: 3px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pricing-box p {
+	font-size: 18px;
+	color: #d6d6d6;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pricing-box ul {
+	list-style: none;
+	padding-top: 40px;
+}
+
+.pricing-box ul li {
+	display: block;
+	color: #d6d6d6;
+	font-size: 18px;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pricing-box ul li span {
+	display: inline-block;
+	width: 29px;
+	height: 3px;
+	margin-top: 18px;
+	background: #fcff18;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pricing-box .site-btn {
+	min-width: 184px;
+	position: absolute;
+	bottom: 31px;
+	left: 50%;
+	margin-left: -92px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pricing-box:hover {
+	background: #fcff18;
+	border-color: #fcff18;
+}
+
+.pricing-box:hover h2,
+.pricing-box:hover p,
+.pricing-box:hover ul li {
+	color: #242424;
+}
+
+.pricing-box:hover ul li span {
+	background: #242424;
+}
+
+.pricing-box:hover .site-btn {
+	color: #fff;
+	background: #242424;
+}
+
+.classes-section {
+	padding: 121px 0;
+}
+
+.classes-section .section-title h2 {
+	line-height: 1.2;
+}
+
+.classes-section .section-title h2 span {
+	line-height: 1;
+}
+
+.classes-text {
+	padding-right: 20px;
+}
+
+.classes-text p {
+	margin-bottom: 50px;
+}

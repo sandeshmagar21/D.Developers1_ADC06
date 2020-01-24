@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="{%static 'style.css'%}">
+<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+<script type ="text/JavaScript" src="{% static 'bootstrap/js/bootstrap.min.js' %}"> </script>
+    <title>Search Hacking</title>
+</head>
+<body>
+
+
+  <form action = "search/" method ="GET"  class="form-inline my-2 my-lg-0">
+      {% csrf_token %}
+      <input class="form-control mr-sm-2" type="text"   name = "hacsac" placeholder="Search..." aria-label="Search">
+      <button href="{% url 'khadka' %}" class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+
+ <h3> Your Search Result: </h3> 
+
+{% block search%}
+<div style="color:blue">
+  {% if sac %}
+     {% for s in sac %}
+<centre>
+     <table border="8px" width="300px" class=" ">
+       <tr>
+          <td>Workout Name</td>
+          <td>{{ s.workoutname }}</td>
+       </tr> 
+       <tr>
+        <td>Image</td>
+        <td>{{ s.picture }}</td>
+       </tr>  
+       <tr>
+        <td>Email</td>
+        <td>{{ s.email }}</td>
+       </tr>  
+       <td> Workout Description </td>
+        <td>{{ s.workoutdesc }}</td>
+       </tr>  
+     </table> 
+     <hr>
+  {% endfor %}
+  {% endif %}
+    </centre>
+</div>
+{% endblock %}
+</body>
+</html>
+
+

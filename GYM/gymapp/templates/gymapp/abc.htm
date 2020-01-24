@@ -1,0 +1,20 @@
+{% extends 'login/home.htm' %}
+ 
+
+{% block content %}
+<center>
+<h1 class="text-warning" >Trainer Singn Up</h1>
+<form method = 'POST' enctype="multipart/form-data">
+    {% csrf_token %}
+    <table class = 'table table-dark table-borderless' style="background-color:#000000;color:#FFFF99;">
+        {% for t1field in form1 %}
+        <tr>
+            <th>{{t1field.label}}</th>
+            <td>{{ t1field }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <button type="submit"  class="btn btn-lg btn-warning ">Submit</button>
+</form>   
+</center>
+{% endblock %}

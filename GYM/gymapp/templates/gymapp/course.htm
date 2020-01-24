@@ -1,0 +1,74 @@
+{% extends 'gymapp/base.htm' %}
+
+{% block content %}
+{%  load static %}
+<center>
+    <section class="pricing-section set-bg" data-setbg='{%static "image/pricing-bg.jpg"%}'>
+        <img src='{% static "image/gymLogo.png" %}' alt="My image"/>
+		<div class="container">
+			<div class="section-title text-white text-center">
+				<h2>Prices for <span>everybody</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="pricing-box">
+						<h2>$10</h2>
+						<p>/month</p>
+						<ul>
+							<li>Gym</li>
+							<li>Fitness 24/7</li>
+							<li><span></span></li>
+							<li><span></span></li>
+							<li><span></span></li>
+						</ul>
+						<a href="#" class="site-btn">Choose Plan</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="pricing-box">
+						<h2>$25</h2>
+						<p>/month</p>
+						<ul>
+							<li>Gym</li>
+							<li>Fitness 24/7</li>
+							<li>Sauna</li>
+							<li><span></span></li>
+							<li><span></span></li>
+						</ul>
+						<a href="#" class="site-btn">Choose Plan</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="pricing-box">
+						<h2>$45</h2>
+						<p>/month</p>
+						<ul>
+							<li>Gym</li>
+							<li>Fitness 24/7</li>
+							<li>Sauna</li>
+							<li>Personal Trainer</li>
+							<li>Massage</li>
+						</ul>
+						<a href="#" class="site-btn">Choose Plan</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="pricing-box">
+						<h2>$60</h2>
+						<p>/month</p>
+						<ul>
+							<li>Gym</li>
+							<li>Fitness 24/7</li>
+							<li>Sauna</li>
+							<li>Personal Trainer</li>
+							<li>Massage</li>
+							<li>Dietician</li>
+						</ul>
+						<a href="#" class="site-btn">Choose Plan</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</center>
+{% endblock %}

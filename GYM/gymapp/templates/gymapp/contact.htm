@@ -1,0 +1,51 @@
+{% extends 'gymapp/base.htm' %}
+
+{% block content %}
+{% load static %}
+<section class="Five">
+      <div class="container">
+          <form class="" action="home.html" method="post">
+               <label for="Name" name=""> Name</label>
+              <input style="color: black; background-color: rgba(133, 126, 126, 0.479);" type="text" placeholder="Name">
+              <label for="Name" name=""> Email</label>
+              <input style="color: black; background-color: rgba(133, 126, 126, 0.479);" type="text" placeholder="Email">
+           </form>
+            <br>
+              <textarea style="color: black; background-color:rgba(133, 126, 126, 0.479);" id:"op" name="comment" rows="20vh" cols="150vh"></textarea>
+        
+              </div>
+
+              <div class="rajsir2">
+                <button style="color:White; background-color: transparent;" type="button" name="button">Send</button>
+                <button  style="color:white; background-color: transparent;"type="button" name="button">Reset</button>
+              </div>
+
+            <div class="rajsir">
+              <figure>
+                <img src='{% static "image/call.png" %}' alt="My image" width="25px" height="30px"/>      Contact Us :+977-01-4366239
+              </figure>
+           
+              <figure>
+              <img src='{% static "image/visit.png" %}' alt="My image" width="25px" height="30px"/>&nbsp;&nbsp;&nbsp;Visit Us : Tamrakar Complex, Pako Sadak,
+            </figure>
+
+            <figure>
+              <img src='{% static "image/mail.png" %}' alt="My image" width="25px" height="30px"/>&nbsp;&nbsp;&nbsp;Mail Us : Sandeshthapa017@gmail.com.np
+            </figure>
+            </div>
+
+  </section>    
+
+
+
+  <div class="contact-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.3231875080064!
+    2d85.31160231504957!3d27.73817598277922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+    1s0x39eb1927888999d3%3A0xdebce8679954085f!2sGadgetsNepal!5e0!3m2!1sen!2snp!4v1517491577181"
+    width="1525" height="550" frameborder="0" style="border:0" allowfullscreen>
+    </iframe>
+   
+  </div>
+
+
+{% endblock %}

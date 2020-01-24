@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Our GYM </title>
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/slicknav.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="{% static 'bootstrap/jquery/jquery.js' %}"> </script>
+    <script type ="text/JavaScript" src="{% static 'bootstrap/js/bootstrap.min.js' %}"> </script>
+    <script src="{% static 'bootstrap/js/query.js' %}"> </script>
+</head>
+<body>
+
+  <nav class="navbar navbar-light" style="background-color: #00000093; border-width:14px;border-color:rgb(88, 88, 44);border-style:groove;border-spacing:30px;border-radius:5px;"class="navbar navbar-light">
+    <div class="pos-f-t">
+        <div class="dropdown-menu" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <a class="btn btn-outline-warning" href="{% url 'index' %}" >People Workout Images</a>
+            <a href="{% url 'sachin' %}" class="btn btn-outline-warning" >Upload Workout Images</a>
+            <a href="{% url 'admin:index' %}" class = 'btn btn-outline-warning' >Admin</a>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-yellow">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>    
+        </nav>
+      </div>
+        <a class="btn btn-outline-warning" href="{% url 'home' %}" >Home</a>
+        <a class="btn btn-outline-warning" href="{% url 'index' %}" >Gallery</a>
+        <a class="btn btn-outline-warning" href="{% url 'course' %}" >Course</a>
+        <a class="btn btn-outline-warning" href="{% url 'tdk' %}" >Trainer</a>
+        <a class="btn btn-outline-warning" href="{% url 'schedule' %}" >Schedule</a>
+        <a class="btn btn-outline-warning" href="{% url 'contact' %}" >Contact</a>
+        <form action = "search/" method ="GET"  class="form-inline my-2 my-lg-0">
+          {% csrf_token %}
+          <input class="form-control mr-sm-2" type="text"   name = "hacsac" placeholder="Search..." aria-label="Search">
+          <button href="{% url 'khadka' %}" class=""btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="btn-group">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button>
+          <div class="dropdown-menu dropdown-menu-right bg-dark p-4">
+              <a class="btn btn-outline-warning" href="{% url 'hacker' %}" >Sign Up</a>
+              <a class="btn btn-outline-warning" href="{% url 'freddie' %}" >Login </a>
+              <a class="btn btn-outline-warning" href="{% url 'logout' %}" >Logout </a>
+          </div>
+        </div>
+    </nav>
+    <div>
+   
